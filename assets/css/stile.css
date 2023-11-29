@@ -1,0 +1,178 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/*colori*/
+main, nav {
+  background-color: #640fc5;
+}
+
+p, a {
+  color: #f4f4f4;
+}
+
+nav > p {
+  color: black;
+}
+
+h1 {
+  color: #27084b;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*font*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.3em;
+}
+
+nav p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+/*spaziature*/
+main, nav {
+  padding: 3em 0em 3em 3em;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+#textContainer {
+  margin-top: 3rem;
+}
+
+main img {
+  width: 30%;
+  height: 300%;
+  border: 3px solid rgb(255, 255, 255);
+  margin-right: 7rem;
+  position: relative;
+  top: 5rem;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#schede {
+  margin-top: 5em;
+}
+
+#schede img {
+  width: 90%;
+  height: 90%;
+  margin-left: 2em;
+  border-radius: 12px;
+}
+
+/*bottoni*/
+#containerBtn a:first-child {
+  background-color: #0e6cff;
+  padding: 1em;
+  border-radius: 12px;
+  margin: 2em 0.4em;
+}
+#containerBtn a:nth-child(2) {
+  background-color: #ff8700;
+  padding: 1em;
+  border-radius: 12px;
+  margin: 2em 0.4em;
+}
+#containerBtn a:nth-child(3) {
+  background-color: #4caf50;
+  padding: 1em;
+  border-radius: 12px;
+  margin: 2em 0.4em;
+}
+
+/*grid*/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+
+main {
+  display: flex;
+}
+
+#containerBtn {
+  display: flex;
+  position: relative;
+}
+
+#schede {
+  display: flex;
+  width: 25%;
+  flex-basis: 25%;
+}
+
+#schede img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*animazioni*/
+main img {
+  animation: apparizione 3s;
+}
+
+@keyframes apparizione {
+  from {
+    bottom: -200px;
+  }
+  50% {
+    top: 0px;
+  }
+}
+* {
+  box-sizing: content-box;
+}
+
+ul {
+  list-style-type: none;
+}/*# sourceMappingURL=stile.css.map */

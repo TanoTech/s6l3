@@ -1,0 +1,15 @@
+@import "reset";
+@import "colori";
+@import "font";
+@import "spaziature";
+@import "bottoni";
+@import "grid";
+@import "animazioni";
+
+* {
+    box-sizing: content-box;
+}
+
+ul {
+    list-style-type: none;
+}

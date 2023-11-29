@@ -1,0 +1,42 @@
+/*spaziature*/
+
+@mixin buttonSpace {
+    padding: 1em;
+    border-radius: 12px;
+    margin: 2em 0.4em; 
+}
+
+main, nav{
+    padding: 3em 0em 3em 3em;
+}
+
+nav ul li {
+    padding: 01rem;
+}
+
+#textContainer {
+    margin-top: 3rem;
+}
+
+main img {
+    width: 30%;
+    height: 300%;
+    border: 3px solid rgb(255, 255, 255);
+    margin-right: 7rem;
+    position: relative;
+    top: 5rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+#schede {
+    margin-top: 5em;
+}
+
+#schede img {
+    width: 90%;
+    height: 90%;
+    margin-left: 2em;
+    border-radius: 12px;
+}

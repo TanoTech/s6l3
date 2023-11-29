@@ -1,0 +1,28 @@
+/*colori*/
+
+$blue-button: #0e6cff;
+$orange-button: #ff8700;
+$green-button: #4caf50;
+$backgroundColor: #640fc5;
+$h1Color: #27084b;
+$text: #f4f4f4;
+
+main, nav {
+    background-color: $backgroundColor
+};
+
+p, a { 
+    color: $text;
+};
+
+nav > p {
+    color: black;
+}
+
+h1 {
+    color: $h1Color;
+}
+
+a {
+    text-decoration: none;
+}

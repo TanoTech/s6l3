@@ -1,0 +1,30 @@
+/*grid*/
+
+nav {
+display: flex;
+justify-content: space-between;
+  ul {
+     display: flex;
+  }   
+};
+
+main {
+  display: flex;
+}
+
+#containerBtn {
+display: flex;
+position: relative;
+};
+
+#schede {
+display: flex;
+width: 25%;
+flex-basis: 25%
+};
+
+#schede img {
+  max-width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,16 @@
+/*animazioni*/
+
+
+main img {
+    animation: apparizione 3s 
+}
+
+@keyframes apparizione {
+    from {
+        bottom: -200px
+    }
+
+    50% {
+        top: 0px
+    }
+}
